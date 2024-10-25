@@ -104,7 +104,6 @@ nav ul li a:focus {
     display: grid;
     /* have only one column in the mobile view - maybe when the screen is going to be bigger (computer or tablet) there will be more than 1 column. */
     grid-template-columns: 1fr;
-    max-width: 100%;
     margin: 0 auto;
     /* adding 20 pixel from the content to the container border */
     padding: 20px;
