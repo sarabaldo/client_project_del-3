@@ -6,13 +6,13 @@
 /* These colors will change later on with another @media query for those that use dark mode instead. */
 /* Check SOIs reported in the pdf to use the root{  and var() */
 :root{
-    --primary-color: #2c3e50; 
-    --secondary-color: #e74c3c; 
-    --background-color: #ecf0f1; 
-    --text-color: #2c3e50; 
-    --button-background: #3498db; 
-    --button-text: #ffffff; 
-    --focus-outline: #f39c12; 
+    --primary-color: #2d4052; 
+    --secondary-color: #e95a45; 
+    --background-color: #edf1f2; 
+    --text-color: #2d4052; 
+    --button-background: #35a1e0; 
+    --button-text: #f9f9f9; 
+    --focus-outline: #f4a319;
 }
 
 /* ------------------------------------------------- */
@@ -146,14 +146,14 @@ nav ul li a:focus {
 /* given the colors of light mode, asked chat gpt to give me these colors for dark mode that would respectt the guidelines of accessibility */
 @media (prefers-color-scheme: dark) {
     :root {
-        --primary-color: #ffffff; 
-        --secondary-color: #ffcc00; 
-        --background-color: #2c3e50; 
-        --text-color: #ffffff; 
-        --section-color: #34495e; 
-        --button-background: #3498db; 
-        --button-text: #34495e; 
-        --focus-outline: #f39c12;
+        --primary-color: #f9f9f9; 
+        --secondary-color: #ffd633; 
+        --background-color: #2e4153; 
+        --text-color: #f9f9f9; 
+        --section-color: #375065; 
+        --button-background: #36a0db; 
+        --button-text: #38536a; 
+        --focus-outline: #f5a11f; 
     }
     /* made a mistake intially here, repeated the styling of body, h1, h2 and so on for dark mode, but after with also the implementation of :root there is no need of that, because it would create a repetition. */
 }
